@@ -15,6 +15,10 @@ namespace CodeReview
             // Get the guy to talk...
             Console.WriteLine(oldGuy.Greet());
             Console.WriteLine(oldGuy.SayFarewell());
+
+            Salutation klingonCommander = new Salutation("nuqneH!", "Qapla'!");
+            Console.WriteLine(klingonCommander.Greet());
+            Console.WriteLine(klingonCommander.SayFarewell());
         }
     }
 }
